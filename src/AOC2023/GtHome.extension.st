@@ -10,14 +10,3 @@ GtHome >> aoc2023Section [
 		startPageName: 'Avent of Code 2023';
 		priority: 10
 ]
-
-{ #category : #'*AOC2023' }
-GtHome >> oscarSection [
-	<gtHomeSection>
-	^ GtHomeStartPageSection new 
-		title: 'Oscar''s Todos';
-		description: 'Oscar''s Lepiter Database';
-		databaseName: 'Documents/lepiter/default';
-		startPageName: 'ASAP';
-		priority: 8
-]

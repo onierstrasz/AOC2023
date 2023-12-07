@@ -4,9 +4,9 @@ Extension { #name : #GtHome }
 GtHome >> aoc2023Section [
 	<gtHomeSection>
 	^ GtHomeStartPageSection new 
-		title: 'Avent of Code 2023';
-		description: 'Avent of Code 2023';
+		title: 'Advent of Code 2023';
+		description: 'Advent of Code 2023';
 		databaseName: 'onierstrasz/AOC2023/lepiter';
-		startPageName: 'Avent of Code 2023';
+		startPageName: 'Advent of Code 2023';
 		priority: 10
 ]

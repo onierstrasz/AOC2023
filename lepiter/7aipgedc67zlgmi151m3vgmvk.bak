@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T16:41:40.737763+01:00"
+						"dateAndTimeString" : "2023-12-07T16:41:55.567422+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +76,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : ""
+				"string" : "We start with [[Puzzle 1]] "
 			}
 		]
 	},

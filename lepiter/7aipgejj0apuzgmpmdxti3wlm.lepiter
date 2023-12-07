@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T16:33:30.004037+01:00"
+						"dateAndTimeString" : "2023-12-07T17:35:08.555376+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Avent of Code 2023]] "
+				"string" : "[[Advent of Code 2023]] "
 			},
 			{
 				"__type" : "textSnippet",

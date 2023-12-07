@@ -538,14 +538,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T17:33:37.770782+01:00"
+									"dateAndTimeString" : "2023-12-07T17:33:42.957475+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "JI6mcU/IDQCw+FfADZosew=="
 							},
-							"code" : "lines := (Character lf split: 'input.txt' asFileReference contents)\r\t\tselect: #notEmpty.\r\r\t\tdigitStringTable := (#(zero one two three four five six seven eight nine)\r\t\tcollectWithIndex: [ :each :n | each asString -> (n - 1) asString ])\r\t\tcopyWithAll: ((0 to: 9) collect: [ :each | each asString -> each asString ]).\rnumbers := lines\r\t\tcollect: [ :line | \r\t\t\tindices := ((digitStringTable\r\t\t\t\t\tflatCollect: [ :assoc | \r\t\t\t\t\t\t{(line findString: assoc key) -> assoc value.\r\t\t\t\t\t\t\t(line findLastOccurrenceOfString: assoc key startingAt: 1) -> assoc value} ])\r\t\t\t\t\tasSet select: [ :each | each key > 0 ]) sorted.\r\t\t\t(indices first value , indices last value) asNumber ].\rnumbers sum."
+							"code" : "lines := (Character lf split: 'input.txt' asFileReference contents)\r\t\tselect: #notEmpty.\r\rdigitStringTable := (#(zero one two three four five six seven eight nine)\r\t\tcollectWithIndex: [ :each :n | each asString -> (n - 1) asString ])\r\t\tcopyWithAll: ((0 to: 9) collect: [ :each | each asString -> each asString ]).\rnumbers := lines\r\t\tcollect: [ :line | \r\t\t\tindices := ((digitStringTable\r\t\t\t\t\tflatCollect: [ :assoc | \r\t\t\t\t\t\t{(line findString: assoc key) -> assoc value.\r\t\t\t\t\t\t\t(line findLastOccurrenceOfString: assoc key startingAt: 1) -> assoc value} ])\r\t\t\t\t\tasSet select: [ :each | each key > 0 ]) sorted.\r\t\t\t(indices first value , indices last value) asNumber ].\rnumbers sum."
 						},
 						{
 							"__type" : "textSnippet",

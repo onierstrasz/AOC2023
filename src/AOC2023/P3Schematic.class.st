@@ -2,14 +2,16 @@ Class {
 	#name : #P3Schematic,
 	#superclass : #Object,
 	#instVars : [
-		'data'
+		'data',
+		'lines'
 	],
 	#category : #'AOC2023-Puzzle3'
 }
 
 { #category : #accessing }
 P3Schematic >> data: aString [
-	data := aString
+	data := aString.
+	self initializeLines
 ]
 
 { #category : #accessing }
@@ -21,4 +23,14 @@ P3Schematic >> gtPrintFor: aView [
 		aptitude: BrGlamorousCodeEditorAptitude;
 		text: [ data ];
 		actionUpdateButton
+]
+
+{ #category : #accessing }
+P3Schematic >> initializeLines [
+	lines := (Character cr split: data) select: #notEmpty
+]
+
+{ #category : #accessing }
+P3Schematic >> lines [
+	^ lines
 ]

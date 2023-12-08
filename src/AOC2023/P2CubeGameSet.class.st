@@ -30,9 +30,36 @@ P2CubeGameSet >> gtGamesFor: aView [
 ]
 
 { #category : #accessing }
+P2CubeGameSet >> gtNeededFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'Needed';
+		priority: 15;
+		object: self needed;
+		view: #gtItemsFor:
+]
+
+{ #category : #accessing }
+P2CubeGameSet >> gtPowersFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'Powers';
+		priority: 20;
+		object: self powers;
+		view: #gtItemsFor:
+]
+
+{ #category : #accessing }
 P2CubeGameSet >> initializeGames [
 	games := ((Character lf split: data) select: #notEmpty)
 			collect: [ :each | P2CubeGame new data: each ]
+]
+
+{ #category : #accessing }
+P2CubeGameSet >> needed [
+	"Minimum needed cubes is the max of all the grab sets."
+
+	^ self games collect: #max
 ]
 
 { #category : #accessing }
@@ -42,5 +69,5 @@ P2CubeGameSet >> possible: testCubeSet [
 
 { #category : #accessing }
 P2CubeGameSet >> powers [
-	^ self games collect: [ :game | game max power ]
+	^ self needed collect: #power
 ]

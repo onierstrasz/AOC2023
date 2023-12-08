@@ -276,6 +276,43 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T09:44:31.63003+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T09:44:58.564869+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yNNzVF3IDQCed5NHCKd6sQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We add some assertions to {{gtMethod:name=P1CalibrationDocumentExamples>>#sampleDocument}} to test the result is what we expect."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2023-12-07T16:52:49.379432+01:00"
 								}
 							},
@@ -564,7 +601,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T17:30:00.782102+01:00"
+									"dateAndTimeString" : "2023-12-08T09:45:59.659053+01:00"
 								}
 							},
 							"editEmail" : {
@@ -575,17 +612,17 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T17:33:12.973857+01:00"
+									"dateAndTimeString" : "2023-12-08T09:46:57.832927+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "r/vbjE/IDQC1Vpk8DZosew=="
+								"uidString" : "NQuzWV3IDQCf45AoCKd6sQ=="
 							},
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Let's test this with our calibration string."
+							"string" : "We create subclasses of our first solution."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -601,7 +638,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T16:57:45.679535+01:00"
+									"dateAndTimeString" : "2023-12-08T09:50:35.671876+01:00"
 								}
 							},
 							"editEmail" : {
@@ -612,14 +649,267 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T17:31:49.331811+01:00"
+									"dateAndTimeString" : "2023-12-08T09:50:51.162205+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "gSv6Q0/IDQClq3h7DZosew=="
+								"uidString" : "0Kkmal3IDQCgzs9sCKd6sQ=="
 							},
-							"code" : "input := 'two1nine\neightwothree\nabcone2threexyz\nxtwone3four\n4nineeightseven2\nzoneight234\n7pqrstsixteen'.\rlines := Character lf split: input.\rnumbers := lines\r\tcollect: [ :line | \r\t\tindices := ((digitStringTable\r\t\t\t\tflatCollect: [ :assoc | \r\t\t\t\t\t{(line findString: assoc key) -> assoc value.\r\t\t\t\t\t\t(line findLastOccurrenceOfString: assoc key startingAt: 1) -> assoc value} ])\r\t\t\t\tasSet select: [ :each | each key > 0 ]) sorted.\r\t\t(indices first value , indices last value) asNumber ].\rnumbers sum."
+							"code" : "P1CalibrationDocumentExamplesV2 new sampleDocument "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T09:45:59.896587+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T09:55:06.30696+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Hqi2WV3IDQCf51dwCKd6sQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We cache the digitStringTable in class variable using {{gtMethod:name=P1CalibrationLineV2 class>>#digitStringTable}}. "
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T09:55:51.146436+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T09:55:59.166124+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "B2z0fF3IDQCjLmVZCKd6sQ=="
+							},
+							"code" : "P1CalibrationDocumentExamplesV2 new sampleDocument lines first"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T09:55:12.300516+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:01:14.10449+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "Mq+jel3IDQCjJjVVCKd6sQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We prototype then extract {{gtMethod:name=P1CalibrationLineV2>>#firstDigit}}. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:02:56.709047+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:03:00.256754+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "DABSll3IDQCnKPtLCKd6sQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We similarly implement {{gtMethod:name=P1CalibrationLineV2>>#lastDigit}}. "
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:03:12.505942+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:03:22.573498+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "7AhDl13IDQCnSxkgCKd6sQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Now we check the retrieved values."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:03:10.34629+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:04:18.182152+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "yRMil13IDQCnR5/lCKd6sQ=="
+							},
+							"code" : "P1CalibrationDocumentExamplesV2 new sampleDocument lines collect: #number"
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:01:00.501566+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-08T10:14:35.321217+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "PM9kj13IDQClqGGdCKd6sQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We add the assertions to {{gtMethod:name=P1CalibrationDocumentExamples>>#sampleDocument}}. "
 						},
 						{
 							"__type" : "textSnippet",
@@ -672,7 +962,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T17:10:31.951286+01:00"
+									"dateAndTimeString" : "2023-12-08T10:14:54.569481+01:00"
 								}
 							},
 							"editEmail" : {
@@ -683,51 +973,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T17:38:27.507278+01:00"
+									"dateAndTimeString" : "2023-12-08T10:15:08.868691+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "JI6mcU/IDQCw+FfADZosew=="
+								"uidString" : "kKsbwV3IDQCApOvuCKd6sQ=="
 							},
-							"code" : "lines := (Character lf split: 'input.txt' asFileReference contents)\r\t\tselect: #notEmpty.\r\rdigitStringTable := (#(zero one two three four five six seven eight nine)\r\t\tcollectWithIndex: [ :each :n | each asString -> (n - 1) asString ])\r\t\tcopyWithAll: ((0 to: 9) collect: [ :each | each asString -> each asString ]).\rnumbers := lines\r\t\tcollect: [ :line | \r\t\t\tindices := ((digitStringTable\r\t\t\t\t\tflatCollect: [ :assoc | \r\t\t\t\t\t\t{(line findString: assoc key) -> assoc value.\r\t\t\t\t\t\t\t(line findLastOccurrenceOfString: assoc key startingAt: 1) -> assoc value} ])\r\t\t\t\t\tasSet select: [ :each | each key > 0 ]) sorted.\r\t\t\t(indices first value , indices last value) asNumber ].\rnumbers sum."
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T17:05:45.738509+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T17:05:45.738509+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "u0qXYE/IDQCrcGu5DZosew=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"code" : "inputFile := FileLocator gtResource / 'onierstrasz' / 'AOC2023' / 'data'\r\t\t/ 'puzzle1-input.txt'.\r(P1CalibrationDocumentV2 new data: inputFile contents) sum."
 						},
 						{
 							"__type" : "textSnippet",

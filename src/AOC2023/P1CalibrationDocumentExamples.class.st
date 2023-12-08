@@ -5,10 +5,19 @@ Class {
 }
 
 { #category : #accessing }
+P1CalibrationDocumentExamples >> docClass [
+	^ P1CalibrationDocument
+]
+
+{ #category : #accessing }
 P1CalibrationDocumentExamples >> sampleDocument [
 	<gtExample>
 	| doc |
-	doc := P1CalibrationDocument new data: self sampleInput.
+	doc := self docClass new data: self sampleInput.
+	self
+		assert: (doc lines collect: #number)
+		equals: #(12 38 15 77) asOrderedCollection.
+	self assert: doc sum equals: 142.
 	^ doc
 ]
 

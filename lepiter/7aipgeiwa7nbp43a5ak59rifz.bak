@@ -350,7 +350,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T16:54:51.4802+01:00"
+									"dateAndTimeString" : "2023-12-08T08:28:13.170588+01:00"
 								}
 							},
 							"editEmail" : {
@@ -361,48 +361,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T16:55:49.686228+01:00"
+									"dateAndTimeString" : "2023-12-08T08:32:47.5833+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
-								"uidString" : "lBSYOU/IDQCh9sQGDZosew=="
+								"uidString" : "txWOQ1zIDQCQdcw8DLwR8Q=="
 							},
-							"code" : "lines := (Character lf split: 'input.txt' asFileReference contents)\r\t\tselect: #notEmpty.\r(lines\r\tcollect: [ :each | \r\t\t((each at: (each findFirst: #isDigit)) asString\r\t\t\t, (each at: (each findLast: #isDigit)) asString) asNumber ]) sum."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:26:44.379136+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:26:56.12732+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "gDxDPlzIDQCQCNMyDLwR8Q=="
-							},
-							"code" : "P1CalibrationDocument new data: "
+							"code" : "inputFile := FileLocator gtResource / 'onierstrasz' / 'AOC2023' / 'data'\r\t\t/ 'puzzle1-input.txt'.\r(P1CalibrationDocument new data: inputFile contents) sum."
 						},
 						{
 							"__type" : "textSnippet",

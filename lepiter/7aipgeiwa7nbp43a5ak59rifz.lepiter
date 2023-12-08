@@ -276,43 +276,6 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:07:16.426941+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:07:16.426941+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "NrKl+FvIDQCCpv25DLwR8Q=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
 									"dateAndTimeString" : "2023-12-07T16:52:49.379432+01:00"
 								}
 							},
@@ -324,7 +287,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T16:55:41.877608+01:00"
+									"dateAndTimeString" : "2023-12-08T08:33:00.295637+01:00"
 								}
 							},
 							"uid" : {
@@ -334,41 +297,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "We download the input file, and apply our solution. We must take care to ignore any empty lines (at end)."
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T16:54:51.4802+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T16:55:49.686228+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "lBSYOU/IDQCh9sQGDZosew=="
-							},
-							"code" : "lines := (Character lf split: 'input.txt' asFileReference contents)\r\t\tselect: #notEmpty.\r(lines\r\tcollect: [ :each | \r\t\t((each at: (each findFirst: #isDigit)) asString\r\t\t\t, (each at: (each findLast: #isDigit)) asString) asNumber ]) sum."
+							"string" : "We download the input file, and apply our solution."
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -395,85 +324,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:28:13.170588+01:00"
+									"dateAndTimeString" : "2023-12-08T08:32:47.5833+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "txWOQ1zIDQCQdcw8DLwR8Q=="
 							},
-							"code" : ""
-						},
-						{
-							"__type" : "pharoSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:26:44.379136+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:28:09.476+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "gDxDPlzIDQCQCNMyDLwR8Q=="
-							},
-							"code" : "\rP1CalibrationDocument new data: "
-						},
-						{
-							"__type" : "textSnippet",
-							"children" : {
-								"__type" : "snippets",
-								"items" : [ ]
-							},
-							"createEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"createTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:07:12.275874+01:00"
-								}
-							},
-							"editEmail" : {
-								"__type" : "email",
-								"emailString" : "<unknown>"
-							},
-							"editTime" : {
-								"__type" : "time",
-								"time" : {
-									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-08T08:07:12.275874+01:00"
-								}
-							},
-							"uid" : {
-								"__type" : "uid",
-								"uidString" : "VyTb91vIDQCCSRyDDLwR8Q=="
-							},
-							"paragraphStyle" : {
-								"__type" : "textStyle"
-							},
-							"string" : ""
+							"code" : "inputFile := FileLocator gtResource / 'onierstrasz' / 'AOC2023' / 'data'\r\t\t/ 'puzzle1-input.txt'.\r(P1CalibrationDocument new data: inputFile contents) sum."
 						}
 					]
 				},

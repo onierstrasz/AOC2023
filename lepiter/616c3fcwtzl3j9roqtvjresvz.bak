@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T16:33:16.593093+01:00"
+						"dateAndTimeString" : "2023-12-08T15:10:00.355819+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T17:35:08.555376+01:00"
+						"dateAndTimeString" : "2023-12-08T15:13:11.743344+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "3bNp7E7IDQCVCkysDZosew=="
+					"uidString" : "CYx04GHIDQCvuimTAyTmZQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Advent of Code 2023]] "
+				"string" : "[Puzzle 3](https://adventofcode.com/2023/day/3) is about identifying part numbers in a grid of data"
 			},
 			{
 				"__type" : "textSnippet",
@@ -55,7 +55,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T16:42:06.481796+01:00"
+						"dateAndTimeString" : "2023-12-08T15:12:44.202793+01:00"
 					}
 				},
 				"editEmail" : {
@@ -66,54 +66,17 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T16:42:07.695225+01:00"
+						"dateAndTimeString" : "2023-12-08T15:12:46.220874+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "TbC5607IDQCVCSWFDZosew=="
+					"uidString" : "7KA46mHIDQCxR0GYAyTmZQ=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Puzzle 1]] "
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T17:41:25.454489+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T17:41:30.496932+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "28Mg4E/IDQCA5fXsDZosew=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "[[Puzzle 2]] "
+				"string" : "# Part 1"
 			}
 		]
 	},
@@ -125,7 +88,7 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-07T16:33:05.012382+01:00"
+			"dateAndTimeString" : "2023-12-08T15:10:00.246575+01:00"
 		}
 	},
 	"editEmail" : {
@@ -136,15 +99,15 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-07T16:33:16.581343+01:00"
+			"dateAndTimeString" : "2023-12-08T15:10:00.246575+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "AOC 2023 ToC"
+		"title" : "Puzzle 3"
 	},
 	"uid" : {
 		"__type" : "uuid",
-		"uuid" : "cafdb8eb-4ec8-0d00-9508-abf70d9a2c7b"
+		"uuid" : "bfe072e0-61c8-0d00-afb9-8e2c0324e665"
 	}
 }

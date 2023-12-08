@@ -99,12 +99,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-07T16:33:31.219819+01:00"
+			"dateAndTimeString" : "2023-12-07T17:35:08.547325+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Avent of Code 2023"
+		"title" : "Advent of Code 2023"
 	},
 	"uid" : {
 		"__type" : "uuid",

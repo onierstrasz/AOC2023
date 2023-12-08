@@ -40,43 +40,6 @@
 					"__type" : "textStyle"
 				},
 				"string" : "This repo is to explore solutions in Glamorous Toolkit for [Advent of Code 2023](https://adventofcode.com/2023)."
-			},
-			{
-				"__type" : "textSnippet",
-				"children" : {
-					"__type" : "snippets",
-					"items" : [ ]
-				},
-				"createEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"createTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T16:41:40.737763+01:00"
-					}
-				},
-				"editEmail" : {
-					"__type" : "email",
-					"emailString" : "<unknown>"
-				},
-				"editTime" : {
-					"__type" : "time",
-					"time" : {
-						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T16:41:55.567422+01:00"
-					}
-				},
-				"uid" : {
-					"__type" : "uid",
-					"uidString" : "gVV2Ck/IDQCW3La+DZosew=="
-				},
-				"paragraphStyle" : {
-					"__type" : "textStyle"
-				},
-				"string" : "We start with [[Puzzle 1]] "
 			}
 		]
 	},

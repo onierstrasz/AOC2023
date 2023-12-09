@@ -1073,12 +1073,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-07T16:41:57.637057+01:00"
+			"dateAndTimeString" : "2023-12-09T11:04:30.486042+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Puzzle 1"
+		"title" : "Puzzle 1 — summing digits in strings"
 	},
 	"uid" : {
 		"__type" : "uuid",

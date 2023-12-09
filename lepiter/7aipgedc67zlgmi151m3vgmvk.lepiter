@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-08T13:50:07.496881+01:00"
+						"dateAndTimeString" : "2023-12-09T11:04:45.186479+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[This repo](https://github.com/onierstrasz/AOC2023) is to explore solutions in Glamorous Toolkit for [Advent of Code 2023](https://adventofcode.com/2023)."
+				"string" : "This [repo](https://github.com/onierstrasz/AOC2023) is to explore solutions in Glamorous Toolkit for [Advent of Code 2023](https://adventofcode.com/2023)."
 			}
 		]
 	},

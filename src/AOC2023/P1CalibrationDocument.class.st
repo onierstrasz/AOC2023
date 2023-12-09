@@ -16,7 +16,7 @@ P1CalibrationDocument >> data: aString [
 
 { #category : #accessing }
 P1CalibrationDocument >> initializeLines [
-	lines := ((Character lf split: data) select: #notEmpty)
+	lines := (data lines select: #notEmpty)
 			collect: [ :each | self lineClass new data: each ]
 ]
 

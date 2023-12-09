@@ -16,7 +16,7 @@ P1CalibrationDocumentExamplesV2 >> sampleDocument [
 	doc := self docClass new data: self sampleInput.
 	self
 		assert: (doc lines collect: #number)
-		equals: #(29 83 13 24 42 14 76) asOrderedCollection.
+		equals: #(29 83 13 24 42 14 76).
 	self assert: doc sum equals: 281.
 	^ doc
 ]

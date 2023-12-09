@@ -65,6 +65,13 @@ P2Sequence >> maxIterations [
 ]
 
 { #category : #accessing }
+P2Sequence >> next [
+	^ self isAllZero
+		ifTrue: [ 0 ]
+		ifFalse: [ sequence last + self derivative next ]
+]
+
+{ #category : #accessing }
 P2Sequence >> printOn: aStream [
 	aStream nextPutAll: data
 ]

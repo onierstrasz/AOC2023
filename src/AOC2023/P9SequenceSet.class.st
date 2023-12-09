@@ -26,8 +26,13 @@ P9SequenceSet >> gtSequencesFor: aView [
 
 { #category : #accessing }
 P9SequenceSet >> initializeSequences [
-	sequences := ((Character cr split: data) select: #notEmpty)
-		collect: [ :each | P2Sequence new data: each ]
+	sequences := (data lines select: #notEmpty)
+			collect: [ :each | P2Sequence new data: each ]
+]
+
+{ #category : #accessing }
+P9SequenceSet >> nextEstimates [
+	^ sequences collect: #next
 ]
 
 { #category : #accessing }

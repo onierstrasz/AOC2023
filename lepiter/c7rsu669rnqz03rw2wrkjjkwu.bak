@@ -782,6 +782,43 @@
 							"noCode" : false
 						},
 						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-09T15:02:09.054985+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-09T15:02:17.648918+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "km404nXIDQCdxnINC4W3lQ=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "We test this with the puzzle input."
+						},
+						{
 							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -806,14 +843,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-09T14:58:34.473013+01:00"
+									"dateAndTimeString" : "2023-12-09T15:02:31.162407+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "Lb9j1XXIDQCcY7f9C4W3lQ=="
 							},
-							"code" : "P9SequenceExamples new sequenceSet."
+							"code" : "inputFile := FileLocator gtResource / 'onierstrasz' / 'AOC2023' / 'data'\r\t\t/ 'puzzle9-input.txt'.\r\rset := P9SequenceSet new data: inputFile contents.\rset previousEstimates sum."
 						},
 						{
 							"__type" : "textSnippet",

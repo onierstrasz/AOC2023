@@ -26,10 +26,9 @@ P4ScratchcardExamples >> sampleSet [
 { #category : #accessing }
 P4ScratchcardExamples >> sampleSetWithPoints [
 	<gtExample>
-	| set points |
+	| set |
 	set := self sampleSet.
-	points := set set collect: #points.
-	self assert: points equals: #(8 2 2 1 0 0).
-	self assert: points sum equals: 13.
+	self assert: set points equals: #(8 2 2 1 0 0).
+	self assert: set points sum equals: 13.
 	^ set
 ]

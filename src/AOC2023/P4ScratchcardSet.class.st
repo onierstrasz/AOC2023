@@ -36,6 +36,11 @@ P4ScratchcardSet >> initializeSet [
 ]
 
 { #category : #accessing }
+P4ScratchcardSet >> points [
+	^ set collect: #points
+]
+
+{ #category : #accessing }
 P4ScratchcardSet >> set [
 	^ set
 ]

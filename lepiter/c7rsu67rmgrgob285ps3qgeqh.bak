@@ -367,7 +367,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-09T16:13:37.251994+01:00"
+									"dateAndTimeString" : "2023-12-09T16:13:41.966755+01:00"
 								}
 							},
 							"uid" : {
@@ -377,7 +377,75 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : "Now we can apply this to our "
+							"string" : "Now we can apply this to our puzzle input."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-09T16:15:28.617706+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-09T16:17:39.141362+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "XGtw6HbIDQCw9rpICy28bA=="
+							},
+							"code" : "inputFile := FileLocator gtResource / 'onierstrasz' / 'AOC2023' / 'data'\r\t\t/ 'puzzle4-input.txt'.\rscratchcards := P4ScratchcardSet new data: inputFile contents.\rscratchcards points sum."
+						},
+						{
+							"__type" : "pharoSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-09T16:15:18.757938+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-09T16:16:43.234659+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "PfrZ53bIDQCw4TVbCy28bA=="
+							},
+							"code" : ""
 						}
 					]
 				},

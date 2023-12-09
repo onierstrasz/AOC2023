@@ -72,6 +72,13 @@ P2Sequence >> next [
 ]
 
 { #category : #accessing }
+P2Sequence >> previous [
+	^ self isAllZero
+		ifTrue: [ 0 ]
+		ifFalse: [ sequence first - self derivative previous ]
+]
+
+{ #category : #accessing }
 P2Sequence >> printOn: aStream [
 	aStream nextPutAll: data
 ]

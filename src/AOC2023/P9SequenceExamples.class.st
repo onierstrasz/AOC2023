@@ -30,3 +30,14 @@ P9SequenceExamples >> sequenceSetWithNextEstimates [
 	self assert: estimates sum equals: 114.
 	^ set
 ]
+
+{ #category : #accessing }
+P9SequenceExamples >> sequenceSetWithPreviousEstimates [
+	<gtExample>
+	| set estimates |
+	set := self sequenceSet.
+	estimates := set previousEstimates.
+	self assert: estimates equals: #(-3 0 5).
+	self assert: estimates sum equals: 2.
+	^ set
+]

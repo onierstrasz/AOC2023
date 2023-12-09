@@ -36,6 +36,11 @@ P9SequenceSet >> nextEstimates [
 ]
 
 { #category : #accessing }
+P9SequenceSet >> previousEstimates [
+	^ sequences collect: #previous
+]
+
+{ #category : #accessing }
 P9SequenceSet >> sequences [
 	^ sequences
 ]

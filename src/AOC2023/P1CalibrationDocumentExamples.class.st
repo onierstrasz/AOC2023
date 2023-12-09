@@ -14,9 +14,7 @@ P1CalibrationDocumentExamples >> sampleDocument [
 	<gtExample>
 	| doc |
 	doc := self docClass new data: self sampleInput.
-	self
-		assert: (doc lines collect: #number)
-		equals: #(12 38 15 77) asOrderedCollection.
+	self assert: (doc lines collect: #number) equals: #(12 38 15 77).
 	self assert: doc sum equals: 142.
 	^ doc
 ]

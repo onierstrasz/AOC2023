@@ -362,7 +362,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:14:17.113127+01:00"
+						"dateAndTimeString" : "2023-12-09T11:14:48.208162+01:00"
 					}
 				},
 				"uid" : {
@@ -372,7 +372,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 9 — computing the next value in a sequence]]"
+				"string" : "[[* Puzzle 9 — estimating the next value in a sequence of sensor readings]]"
 			}
 		]
 	},

@@ -10,7 +10,7 @@ P2CubeGameExamples >> sampleGame [
 	| gameSet possible |
 	gameSet := P2CubeGameSet new data: self sampleGameInput.
 	possible := gameSet possible: self testCubeSet.
-	self assert: (possible collect: #id) equals: #(1 2 5) asOrderedCollection.
+	self assert: (possible collect: #id) equals: #(1 2 5).
 	self assert: (possible collect: #id) sum equals: 8.
 	^ gameSet
 ]
@@ -30,7 +30,7 @@ P2CubeGameExamples >> sampleGamePowers [
 	<gtExample>
 	| gameSet |
 	gameSet := P2CubeGameSet new data: self sampleGameInput.
-	self assert: gameSet powers equals: #(48 12 1560 630 36) asOrderedCollection.
+	self assert: gameSet powers equals: #(48 12 1560 630 36).
 	self assert: gameSet powers sum equals: 2286.
 	^ gameSet
 ]

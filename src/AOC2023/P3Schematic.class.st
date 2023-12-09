@@ -27,7 +27,7 @@ P3Schematic >> gtPrintFor: aView [
 
 { #category : #accessing }
 P3Schematic >> initializeLines [
-	lines := (Character cr split: data) select: #notEmpty
+	lines := data lines select: #notEmpty
 ]
 
 { #category : #accessing }

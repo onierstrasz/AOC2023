@@ -51,7 +51,7 @@ P2CubeGameSet >> gtPowersFor: aView [
 
 { #category : #accessing }
 P2CubeGameSet >> initializeGames [
-	games := ((Character lf split: data) select: #notEmpty)
+	games := (data lines select: #notEmpty)
 			collect: [ :each | P2CubeGame new data: each ]
 ]
 

@@ -2,21 +2,14 @@ Class {
 	#name : #P4ScratchcardSet,
 	#superclass : #Object,
 	#instVars : [
-		'data',
 		'set'
 	],
 	#category : #'AOC2023-Puzzle4'
 }
 
 { #category : #accessing }
-P4ScratchcardSet >> data [
-	^ data
-]
-
-{ #category : #accessing }
 P4ScratchcardSet >> data: aString [
-	data := aString.
-	self initializeSet
+	self initializeSetFrom: aString
 ]
 
 { #category : #accessing }
@@ -30,7 +23,7 @@ P4ScratchcardSet >> gtScratchcardsFor: aView [
 ]
 
 { #category : #accessing }
-P4ScratchcardSet >> initializeSet [
+P4ScratchcardSet >> initializeSetFrom: data [
 	set := (data lines select: #notEmpty)
 			collect: [ :each | P4Scratchcard new data: each ]
 ]

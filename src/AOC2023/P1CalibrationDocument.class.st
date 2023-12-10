@@ -2,7 +2,6 @@ Class {
 	#name : #P1CalibrationDocument,
 	#superclass : #Object,
 	#instVars : [
-		'data',
 		'lines'
 	],
 	#category : #'AOC2023-Puzzle1'
@@ -10,12 +9,21 @@ Class {
 
 { #category : #accessing }
 P1CalibrationDocument >> data: aString [
-	data := aString.
-	self initializeLines
+	self initializeLinesFrom: aString
 ]
 
 { #category : #accessing }
-P1CalibrationDocument >> initializeLines [
+P1CalibrationDocument >> gtLinesFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'Lines';
+		priority: 10;
+		object: [ lines ];
+		view: #gtItemsFor:
+]
+
+{ #category : #accessing }
+P1CalibrationDocument >> initializeLinesFrom: data [
 	lines := (data lines select: #notEmpty)
 			collect: [ :each | self lineClass new data: each ]
 ]

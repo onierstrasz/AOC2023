@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:04:30.494612+01:00"
+						"dateAndTimeString" : "2023-12-10T15:36:44.955333+01:00"
 					}
 				},
 				"uid" : {
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:09:38.774611+01:00"
+						"dateAndTimeString" : "2023-12-10T15:50:46.609476+01:00"
 					}
 				},
 				"uid" : {
@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:10:21.324528+01:00"
+						"dateAndTimeString" : "2023-12-10T15:56:17.75202+01:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 3 — engine part number schematics]] "
+				"string" : "[[... Puzzle 3 — engine part number schematics]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:10:51.920259+01:00"
+						"dateAndTimeString" : "2023-12-10T15:56:23.824699+01:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 4 — counting winning numbers on scratchcards]] "
+				"string" : "[[... Puzzle 4 — counting winning numbers on scratchcards]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -362,7 +362,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T15:02:52.355906+01:00"
+						"dateAndTimeString" : "2023-12-10T15:26:16.208388+01:00"
 					}
 				},
 				"uid" : {
@@ -372,7 +372,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Puzzle 9 — estimating the next value in a sequence of sensor readings]]"
+				"string" : "[[** Puzzle 9 — estimating the next value in a sequence of sensor readings]]"
 			}
 		]
 	},

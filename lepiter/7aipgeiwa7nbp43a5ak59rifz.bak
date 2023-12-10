@@ -108,14 +108,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-07T16:54:09.351253+01:00"
+									"dateAndTimeString" : "2023-12-09T14:50:14.996987+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "vQ3lE0/IDQCZVvWQDZosew=="
 							},
-							"code" : "input := '1abc2\npqr3stu8vwx\na1b2c3d4e5f\ntreb7uchet'.\rlines := Character lf split: input.\r(lines\r\tcollect: [ :each | \r\t\t((each at: (each findFirst: #isDigit)) asString\r\t\t\t, (each at: (each findLast: #isDigit)) asString) asNumber ]) sum."
+							"code" : "input := '1abc2\npqr3stu8vwx\na1b2c3d4e5f\ntreb7uchet'.\rlines := input lines.\r(lines\r\tcollect: [ :each | \r\t\t((each at: (each findFirst: #isDigit)) asString\r\t\t\t, (each at: (each findLast: #isDigit)) asString) asNumber ]) sum."
 						},
 						{
 							"__type" : "textSnippet",
@@ -1073,12 +1073,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-09T11:04:30.486042+01:00"
+			"dateAndTimeString" : "2023-12-10T15:26:05.122884+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Puzzle 1 — summing digits in strings"
+		"title" : "** Puzzle 1 — summing digits in strings"
 	},
 	"uid" : {
 		"__type" : "uuid",

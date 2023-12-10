@@ -980,12 +980,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-09T15:02:52.350311+01:00"
+			"dateAndTimeString" : "2023-12-10T15:26:16.198553+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "Puzzle 9 — estimating the next value in a sequence of sensor readings"
+		"title" : "** Puzzle 9 — estimating the next value in a sequence of sensor readings"
 	},
 	"uid" : {
 		"__type" : "uuid",

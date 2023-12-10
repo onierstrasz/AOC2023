@@ -578,12 +578,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-09T11:10:51.907162+01:00"
+			"dateAndTimeString" : "2023-12-10T15:56:23.504114+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Puzzle 4 — counting winning numbers on scratchcards"
+		"title" : "... Puzzle 4 — counting winning numbers on scratchcards"
 	},
 	"uid" : {
 		"__type" : "uuid",

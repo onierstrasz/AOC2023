@@ -12,6 +12,8 @@ Class {
 
 { #category : #accessing }
 P4Scratchcard >> data: aString [
+	"We keep the raw data for the printString"
+
 	data := aString.
 	self initializeData
 ]

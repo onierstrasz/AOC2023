@@ -2,7 +2,6 @@ Class {
 	#name : #P2Sequence,
 	#superclass : #Object,
 	#instVars : [
-		'data',
 		'sequence'
 	],
 	#category : #'AOC2023-Puzzle9'
@@ -10,8 +9,7 @@ Class {
 
 { #category : #accessing }
 P2Sequence >> data: aString [
-	data := aString.
-	self initializeSequence
+	self initializeSequenceFrom: aString
 ]
 
 { #category : #accessing }
@@ -45,8 +43,8 @@ P2Sequence >> gtDerivativesFor: aView [
 ]
 
 { #category : #accessing }
-P2Sequence >> initializeSequence [
-	sequence := (Character space split: data) collect: #asNumber
+P2Sequence >> initializeSequenceFrom: aString [
+	sequence := (Character space split: aString) collect: #asNumber
 ]
 
 { #category : #accessing }
@@ -80,7 +78,7 @@ P2Sequence >> previous [
 
 { #category : #accessing }
 P2Sequence >> printOn: aStream [
-	aStream nextPutAll: data
+	aStream nextPutAll: self printSequence
 ]
 
 { #category : #accessing }
@@ -95,6 +93,5 @@ P2Sequence >> sequence [
 
 { #category : #accessing }
 P2Sequence >> sequence: anOrderedCollectionOfNumbers [
-	sequence := anOrderedCollectionOfNumbers.
-	data := self printSequence
+	sequence := anOrderedCollectionOfNumbers
 ]

@@ -2,7 +2,6 @@ Class {
 	#name : #P9SequenceSet,
 	#superclass : #Object,
 	#instVars : [
-		'data',
 		'sequences'
 	],
 	#category : #'AOC2023-Puzzle9'
@@ -10,8 +9,7 @@ Class {
 
 { #category : #accessing }
 P9SequenceSet >> data: aString [
-	data := aString.
-	self initializeSequences
+	self initializeSequencesFrom: aString
 ]
 
 { #category : #accessing }
@@ -25,8 +23,8 @@ P9SequenceSet >> gtSequencesFor: aView [
 ]
 
 { #category : #accessing }
-P9SequenceSet >> initializeSequences [
-	sequences := (data lines select: #notEmpty)
+P9SequenceSet >> initializeSequencesFrom: aString [
+	sequences := (aString lines select: #notEmpty)
 			collect: [ :each | P2Sequence new data: each ]
 ]
 

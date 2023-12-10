@@ -66,7 +66,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:04:30.494612+01:00"
+						"dateAndTimeString" : "2023-12-10T15:36:44.955333+01:00"
 					}
 				},
 				"uid" : {
@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:09:38.774611+01:00"
+						"dateAndTimeString" : "2023-12-10T15:26:10.881627+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Puzzle 2 — grab bags with colored cubes]] "
+				"string" : "[[** Puzzle 2 — grab bags with colored cubes]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -362,7 +362,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T15:02:52.355906+01:00"
+						"dateAndTimeString" : "2023-12-10T15:26:16.208388+01:00"
 					}
 				},
 				"uid" : {
@@ -372,7 +372,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Puzzle 9 — estimating the next value in a sequence of sensor readings]]"
+				"string" : "[[** Puzzle 9 — estimating the next value in a sequence of sensor readings]]"
 			}
 		]
 	},

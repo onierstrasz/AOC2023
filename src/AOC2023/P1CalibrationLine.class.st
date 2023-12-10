@@ -18,6 +18,18 @@ P1CalibrationLine >> firstDigit [
 ]
 
 { #category : #accessing }
+P1CalibrationLine >> gtSummaryFor: aView [
+	<gtView>
+	^ aView forward
+		title: 'Summary';
+		priority: 10;
+		object: [ {'Data' -> data.
+				'First digit' -> self firstDigit asString.
+				'Last digit' -> self lastDigit asString} asOrderedDictionary ];
+		view: #gtItemsFor:
+]
+
+{ #category : #accessing }
 P1CalibrationLine >> lastDigit [
 	^ data at: (data findLast: #isDigit)
 ]
@@ -25,4 +37,9 @@ P1CalibrationLine >> lastDigit [
 { #category : #accessing }
 P1CalibrationLine >> number [
 	^ (self firstDigit asString , self lastDigit asString) asNumber
+]
+
+{ #category : #accessing }
+P1CalibrationLine >> printOn: aStream [
+	aStream nextPutAll: data
 ]

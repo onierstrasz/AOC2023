@@ -2,7 +2,6 @@ Class {
 	#name : #P2CubeGameSet,
 	#superclass : #Object,
 	#instVars : [
-		'data',
 		'games'
 	],
 	#category : #'AOC2023-Puzzle2'
@@ -10,8 +9,7 @@ Class {
 
 { #category : #accessing }
 P2CubeGameSet >> data: aString [
-	data := aString.
-	self initializeGames
+	self initializeGamesFrom: aString
 ]
 
 { #category : #accessing }
@@ -50,7 +48,7 @@ P2CubeGameSet >> gtPowersFor: aView [
 ]
 
 { #category : #accessing }
-P2CubeGameSet >> initializeGames [
+P2CubeGameSet >> initializeGamesFrom: data [
 	games := (data lines select: #notEmpty)
 			collect: [ :each | P2CubeGame new data: each ]
 ]

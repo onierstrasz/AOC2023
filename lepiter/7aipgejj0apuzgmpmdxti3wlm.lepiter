@@ -103,7 +103,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-10T15:26:10.881627+01:00"
+						"dateAndTimeString" : "2023-12-10T15:50:46.609476+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +113,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[** Puzzle 2 — grab bags with colored cubes]] "
+				"string" : "[[Puzzle 2 — grab bags with colored cubes]] "
 			},
 			{
 				"__type" : "textSnippet",

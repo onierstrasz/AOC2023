@@ -327,14 +327,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-09T14:19:40.106115+01:00"
+									"dateAndTimeString" : "2023-12-10T16:04:13.914893+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "sZNJSHXIDQCoKPdbDWV24Q=="
 							},
-							"code" : "P9SequenceExamples new sequenceSet sequences first derivative"
+							"code" : "P9SequenceExamples new sequenceSet sequences first derivative."
 						},
 						{
 							"__type" : "textSnippet",

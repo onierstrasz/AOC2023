@@ -42,6 +42,16 @@ P5AlmanacExamples >> sampleAlmanacWithMaps [
 ]
 
 { #category : #accessing }
+P5AlmanacExamples >> sampleAlmanacWithSeedsExpanded [
+	<gtExample>
+	| almanac |
+	almanac := P5Almanac new data: self sampleData.
+	self assert: almanac seedsExpanded size equals: 27.
+	self assert: almanac locationsExpanded min equals: 46.
+	^ almanac
+]
+
+{ #category : #accessing }
 P5AlmanacExamples >> sampleData [
 	<gtExample>
 	^ 'seeds: 79 14 55 13

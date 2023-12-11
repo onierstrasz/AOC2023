@@ -50,6 +50,11 @@ P5Almanac >> locations [
 ]
 
 { #category : #accessing }
+P5Almanac >> locationsExpanded [
+	^ self seedsExpanded collect: [ :seed | self locationOf: seed ]
+]
+
+{ #category : #accessing }
 P5Almanac >> mapAll: aSeed [
 	| current output |
 	current := aSeed.
@@ -69,4 +74,12 @@ P5Almanac >> mapperNamed: aString [
 { #category : #accessing }
 P5Almanac >> seeds [
 	^ seeds
+]
+
+{ #category : #accessing }
+P5Almanac >> seedsExpanded [
+	"For part 2 we have to interpet the seeds array as pairs of start numbers and rangel lengths"
+
+	^ (self seeds
+		pairsCollect: [ :start :length | (start to: start + length - 1) asArray ]) flatten
 ]

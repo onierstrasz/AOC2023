@@ -40,6 +40,16 @@ P5Almanac >> initialize [
 ]
 
 { #category : #accessing }
+P5Almanac >> locationOf: aSeed [
+	^ (self mapAll: aSeed) last
+]
+
+{ #category : #accessing }
+P5Almanac >> locations [
+	^ self seeds collect: [ :seed | self locationOf: seed ]
+]
+
+{ #category : #accessing }
 P5Almanac >> mapAll: aSeed [
 	| current output |
 	current := aSeed.
@@ -54,4 +64,9 @@ P5Almanac >> mapAll: aSeed [
 { #category : #accessing }
 P5Almanac >> mapperNamed: aString [
 	^ mappers detect: [ :mapper | mapper name = aString ]
+]
+
+{ #category : #accessing }
+P5Almanac >> seeds [
+	^ seeds
 ]

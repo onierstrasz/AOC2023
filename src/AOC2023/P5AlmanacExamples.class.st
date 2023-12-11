@@ -36,6 +36,8 @@ P5AlmanacExamples >> sampleAlmanacWithMaps [
 		assert: (almanac mapAll: 13)
 		equals: #(13 13 52 41 34 34 35 35) asOrderedCollection.
 
+	self assert: almanac locations equals: #(82 43 86 35).
+
 	^ almanac
 ]
 

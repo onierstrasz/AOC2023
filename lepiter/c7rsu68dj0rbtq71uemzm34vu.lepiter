@@ -398,14 +398,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-11T18:46:51.859007+01:00"
+									"dateAndTimeString" : "2023-12-11T18:55:20.744924+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "dk4mQaHIDQCvrvi6CXhVvQ=="
 							},
-							"code" : "inputFile := FileLocator gtResource / 'onierstrasz' / 'AOC2023' / 'data'\r\t\t/ 'puzzle5-input.txt'.\r"
+							"code" : "inputFile := FileLocator gtResource / 'onierstrasz' / 'AOC2023' / 'data'\r\t\t/ 'puzzle5-input.txt'.\r\ralmanac := P5Almanac new data: inputFile contents.\ralmanac locations min."
 						},
 						{
 							"__type" : "textSnippet",

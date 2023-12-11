@@ -739,6 +739,43 @@
 							"code" : "min := almanac locationOf: almanac seeds first.\r[ almanac seeds\r\tpairsDo: [ :start :length | \r\t\tstart\r\t\t\tto: length - 1\r\t\t\tdo: [ :n | min := min min: (almanac locationOf: start + n) ] ] ] timeToRun."
 						},
 						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-11T21:13:34.103497+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-11T21:13:39.636233+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SAkuTqPIDQC1/CQqCuad4A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : "Takes 0:00:07:26.881"
+						},
+						{
 							"__type" : "pharoSnippet",
 							"children" : {
 								"__type" : "snippets",
@@ -797,7 +834,7 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-11T19:19:03.610224+01:00"
+									"dateAndTimeString" : "2023-12-11T21:13:48.840776+01:00"
 								}
 							},
 							"uid" : {
@@ -807,7 +844,7 @@
 							"paragraphStyle" : {
 								"__type" : "textStyle"
 							},
-							"string" : ""
+							"string" : "861012996"
 						},
 						{
 							"__type" : "textSnippet",

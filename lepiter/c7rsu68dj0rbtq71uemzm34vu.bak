@@ -729,14 +729,51 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-11T20:38:58.381601+01:00"
+									"dateAndTimeString" : "2023-12-11T20:39:01.935435+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "Hs2x0aLIDQC4twSmBi2MPw=="
 							},
-							"code" : "min := almanac locationOf: almanac seeds first.\r[ almanac seeds\r\tpairsDo: [ :start :length | \r\t\tstart\r\t\t\tto: length - 1\r\t\t\tdo: [ :n | min := min min: (almanac locationOf: start + n) ] ] ]stimeToRun"
+							"code" : "min := almanac locationOf: almanac seeds first.\r[ almanac seeds\r\tpairsDo: [ :start :length | \r\t\tstart\r\t\t\tto: length - 1\r\t\t\tdo: [ :n | min := min min: (almanac locationOf: start + n) ] ] ] timeToRun."
+						},
+						{
+							"__type" : "textSnippet",
+							"children" : {
+								"__type" : "snippets",
+								"items" : [ ]
+							},
+							"createEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"createTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-11T21:13:34.103497+01:00"
+								}
+							},
+							"editEmail" : {
+								"__type" : "email",
+								"emailString" : "<unknown>"
+							},
+							"editTime" : {
+								"__type" : "time",
+								"time" : {
+									"__type" : "dateAndTime",
+									"dateAndTimeString" : "2023-12-11T21:13:34.103497+01:00"
+								}
+							},
+							"uid" : {
+								"__type" : "uid",
+								"uidString" : "SAkuTqPIDQC1/CQqCuad4A=="
+							},
+							"paragraphStyle" : {
+								"__type" : "textStyle"
+							},
+							"string" : ""
 						},
 						{
 							"__type" : "pharoSnippet",
@@ -763,14 +800,14 @@
 								"__type" : "time",
 								"time" : {
 									"__type" : "dateAndTime",
-									"dateAndTimeString" : "2023-12-11T20:38:45.589763+01:00"
+									"dateAndTimeString" : "2023-12-11T20:39:03.49969+01:00"
 								}
 							},
 							"uid" : {
 								"__type" : "uid",
 								"uidString" : "HYnQxKLIDQCGNQ3xAsm7Yw=="
 							},
-							"code" : "min"
+							"code" : "min."
 						},
 						{
 							"__type" : "textSnippet",

@@ -140,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-10T15:56:17.75202+01:00"
+						"dateAndTimeString" : "2023-12-11T17:39:40.301376+01:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[... Puzzle 3 — engine part number schematics]] "
+				"string" : "[[* Puzzle 3 — engine part number schematics]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -214,7 +214,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:11:30.347421+01:00"
+						"dateAndTimeString" : "2023-12-11T17:41:48.170542+01:00"
 					}
 				},
 				"uid" : {
@@ -224,7 +224,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 5 — mapping seeds to nearby locations]]"
+				"string" : "[[* Puzzle 5 — Almanac mapping seeds to nearby locations]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -399,7 +399,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-10T16:06:55.880849+01:00"
+						"dateAndTimeString" : "2023-12-11T17:18:27.780543+01:00"
 					}
 				},
 				"uid" : {
@@ -409,7 +409,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 10]]  "
+				"string" : "[[... Puzzle 10 — finding loops on a map]]  "
 			}
 		]
 	},

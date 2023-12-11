@@ -57,3 +57,56 @@ P10MapExamples >> cleanMapWithPositions [
 	map tiles do: [ :tile | self assert: (map at: tile position) equals: tile ].
 	^ map
 ]
+
+{ #category : #accessing }
+P10MapExamples >> nestMap1 [
+	"First example for Part two"
+
+	<gtExample>
+	| map |
+	map := P10Map from: self nestMapInput1.
+	^ map
+]
+
+{ #category : #accessing }
+P10MapExamples >> nestMap2 [
+	"Second example for Part two"
+
+	<gtExample>
+	| map |
+	map := P10Map from: self nestMapInput2.
+	^ map
+]
+
+{ #category : #accessing }
+P10MapExamples >> nestMapInput1 [
+	"First example for Part two"
+
+	<gtExample>
+	^ '...........
+.S-------7.
+.|F-----7|.
+.||.....||.
+.||.....||.
+.|L-7.F-J|.
+.|..|.|..|.
+.L--J.L--J.
+...........'
+]
+
+{ #category : #accessing }
+P10MapExamples >> nestMapInput2 [
+	"Second example for Part two"
+
+	<gtExample>
+	^ 'FF7FSF7F7F7F7F7F---7
+L|LJ||||||||||||F--J
+FL-7LJLJ||||||LJL-77
+F--JF--7||LJLJ7F7FJ-
+L---JF-JLJ.||-FJLJJ7
+|F|F-JF---7F7-L7L|7|
+|FFJF7L7F-JF7|JL---7
+7-L-JL7||F7|L7F-7F7|
+L.L7LFJ|||||FJL7||LJ
+L7JLJL-JLJLJL--JLJ.L'
+]

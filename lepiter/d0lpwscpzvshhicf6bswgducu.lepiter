@@ -1160,12 +1160,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-11T17:18:27.774713+01:00"
+			"dateAndTimeString" : "2023-12-13T12:43:15.760043+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "... Puzzle 10 — finding loops on a map"
+		"title" : "* Puzzle 10 — finding loops on a map"
 	},
 	"uid" : {
 		"__type" : "uuid",

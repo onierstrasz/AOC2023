@@ -29,7 +29,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-11T17:39:55.438093+01:00"
+						"dateAndTimeString" : "2023-12-11T17:40:04.032663+01:00"
 					}
 				},
 				"uid" : {
@@ -39,7 +39,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "**TO DO** — just started working on part 1 ..."
+				"string" : "**TO DO** — just started working on part 1, but no real progress"
 			},
 			{
 				"__type" : "textSnippet",

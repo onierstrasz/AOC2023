@@ -18,7 +18,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T16:33:16.593093+01:00"
+						"dateAndTimeString" : "2023-12-13T12:39:58.423625+01:00"
 					}
 				},
 				"editEmail" : {
@@ -29,17 +29,91 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-07T17:35:08.555376+01:00"
+						"dateAndTimeString" : "2023-12-13T12:40:00.696747+01:00"
 					}
 				},
 				"uid" : {
 					"__type" : "uid",
-					"uidString" : "3bNp7E7IDQCVCkysDZosew=="
+					"uidString" : "tNMaXcTIDQCrdLuCD7BMRg=="
 				},
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Advent of Code 2023]] "
+				"string" : "This [repo](https://github.com/onierstrasz/AOC2023) is to explore solutions in Glamorous Toolkit for [Advent of Code 2023](https://adventofcode.com/2023)."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-12-13T12:39:58.651637+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-12-13T12:41:34.383137+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "RE4eXcTIDQCreFvhD7BMRg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "* These puzzles have part 1 solved."
+			},
+			{
+				"__type" : "textSnippet",
+				"children" : {
+					"__type" : "snippets",
+					"items" : [ ]
+				},
+				"createEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"createTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-12-13T12:40:13.54375+01:00"
+					}
+				},
+				"editEmail" : {
+					"__type" : "email",
+					"emailString" : "<unknown>"
+				},
+				"editTime" : {
+					"__type" : "time",
+					"time" : {
+						"__type" : "dateAndTime",
+						"dateAndTimeString" : "2023-12-13T12:41:32.814709+01:00"
+					}
+				},
+				"uid" : {
+					"__type" : "uid",
+					"uidString" : "jYoBXsTIDQCrj4lYD7BMRg=="
+				},
+				"paragraphStyle" : {
+					"__type" : "textStyle"
+				},
+				"string" : "** These have both parts 1 and 2 solved."
 			},
 			{
 				"__type" : "textSnippet",
@@ -66,7 +140,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-10T15:36:44.955333+01:00"
+						"dateAndTimeString" : "2023-12-13T12:41:53.939602+01:00"
 					}
 				},
 				"uid" : {
@@ -76,7 +150,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Puzzle 1 — summing digits in strings]] "
+				"string" : "[[** Puzzle 1 — summing digits in strings]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -103,7 +177,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-10T15:50:46.609476+01:00"
+						"dateAndTimeString" : "2023-12-13T12:42:03.010204+01:00"
 					}
 				},
 				"uid" : {
@@ -113,7 +187,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Puzzle 2 — grab bags with colored cubes]] "
+				"string" : "[[** Puzzle 2 — grab bags with colored cubes]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -140,7 +214,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-11T17:39:40.301376+01:00"
+						"dateAndTimeString" : "2023-12-13T12:42:17.871648+01:00"
 					}
 				},
 				"uid" : {
@@ -150,7 +224,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 3 — engine part number schematics]] "
+				"string" : "[[Puzzle 3 — engine part number schematics]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -177,7 +251,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-10T15:56:23.824699+01:00"
+						"dateAndTimeString" : "2023-12-13T12:42:29.496074+01:00"
 					}
 				},
 				"uid" : {
@@ -187,7 +261,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[... Puzzle 4 — counting winning numbers on scratchcards]] "
+				"string" : "[[* Puzzle 4 — counting winning numbers on scratchcards]] "
 			},
 			{
 				"__type" : "textSnippet",
@@ -214,7 +288,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-11T18:46:32.420233+01:00"
+						"dateAndTimeString" : "2023-12-13T12:42:36.587548+01:00"
 					}
 				},
 				"uid" : {
@@ -224,7 +298,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[... Puzzle 5 — Almanac mapping seeds to nearby locations]]"
+				"string" : "[[* Puzzle 5 — Almanac mapping seeds to nearby locations]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -251,7 +325,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:12:09.985659+01:00"
+						"dateAndTimeString" : "2023-12-13T12:42:42.524011+01:00"
 					}
 				},
 				"uid" : {
@@ -261,7 +335,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 6 — beating historical toy boat race records]]"
+				"string" : "[[Puzzle 6 — beating historical toy boat race records]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -288,7 +362,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:12:55.148694+01:00"
+						"dateAndTimeString" : "2023-12-13T12:42:47.912772+01:00"
 					}
 				},
 				"uid" : {
@@ -298,7 +372,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 7 — sorting CamelCard hands and computing winnings ]]"
+				"string" : "[[Puzzle 7 — sorting CamelCard hands and computing winnings ]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -325,7 +399,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-09T11:13:52.763487+01:00"
+						"dateAndTimeString" : "2023-12-13T12:42:53.900093+01:00"
 					}
 				},
 				"uid" : {
@@ -335,7 +409,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[* Puzzle 8 — following map instructions from start to end]]"
+				"string" : "[[Puzzle 8 — following map instructions from start to end]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -362,7 +436,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-10T16:05:34.941036+01:00"
+						"dateAndTimeString" : "2023-12-13T12:43:03.757753+01:00"
 					}
 				},
 				"uid" : {
@@ -372,7 +446,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[Puzzle 9 — estimating the next value in a sequence of sensor readings]]"
+				"string" : "[[** Puzzle 9 — estimating the next value in a sequence of sensor readings]]"
 			},
 			{
 				"__type" : "textSnippet",
@@ -399,7 +473,7 @@
 					"__type" : "time",
 					"time" : {
 						"__type" : "dateAndTime",
-						"dateAndTimeString" : "2023-12-11T17:18:27.780543+01:00"
+						"dateAndTimeString" : "2023-12-13T12:43:15.769208+01:00"
 					}
 				},
 				"uid" : {
@@ -409,7 +483,7 @@
 				"paragraphStyle" : {
 					"__type" : "textStyle"
 				},
-				"string" : "[[... Puzzle 10 — finding loops on a map]]  "
+				"string" : "[[* Puzzle 10 — finding loops on a map]]  "
 			}
 		]
 	},
@@ -432,12 +506,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-07T16:33:16.581343+01:00"
+			"dateAndTimeString" : "2023-12-13T12:40:38.318191+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "AOC 2023 ToC"
+		"title" : "Advent of Code 2023"
 	},
 	"uid" : {
 		"__type" : "uuid",

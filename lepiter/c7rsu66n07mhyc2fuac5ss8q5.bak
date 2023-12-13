@@ -247,12 +247,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-09T11:02:17.331825+01:00"
+			"dateAndTimeString" : "2023-12-09T11:13:52.750435+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Puzzle 8"
+		"title" : "* Puzzle 8 — following map instructions from start to end"
 	},
 	"uid" : {
 		"__type" : "uuid",

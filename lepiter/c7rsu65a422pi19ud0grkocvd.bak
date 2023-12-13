@@ -173,12 +173,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-09T11:01:31.394056+01:00"
+			"dateAndTimeString" : "2023-12-09T11:12:55.138665+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Puzzle 7"
+		"title" : "* Puzzle 7 — sorting CamelCard hands and computing winnings "
 	},
 	"uid" : {
 		"__type" : "uuid",

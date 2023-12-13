@@ -136,12 +136,12 @@
 		"__type" : "time",
 		"time" : {
 			"__type" : "dateAndTime",
-			"dateAndTimeString" : "2023-12-09T11:12:09.973072+01:00"
+			"dateAndTimeString" : "2023-12-13T12:42:42.516777+01:00"
 		}
 	},
 	"pageType" : {
 		"__type" : "namedPage",
-		"title" : "* Puzzle 6 — beating historical toy boat race records"
+		"title" : "Puzzle 6 — beating historical toy boat race records"
 	},
 	"uid" : {
 		"__type" : "uuid",
